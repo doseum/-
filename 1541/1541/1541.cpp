@@ -1,18 +1,19 @@
 #include<iostream>
 #include<queue>
 #include<cstring>
-
 using namespace std;
 
 int main() {
+	
 	char s[50];
 	cin >> s;
 
-	cout << s;
+	char* tmp;
+	char* tok = strtok_s(s, "-",&tmp);
 
-	int tmp;
-	queue<int> tq;
-
+	while (tok != NULL) {
+		char* stok = strtok_s(tok, "+", &tmp);
+	}
 	
 
 }
