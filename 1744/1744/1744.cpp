@@ -29,9 +29,6 @@ int main() {
 				seq[i + 1] *= seq[i];
 				seq.erase(seq.begin() + i);
 			}
-			else {
-
-			}
 		}
 		else {//0
 			if ((seq.size()-1 - i) %2==1 ) {
